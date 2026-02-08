@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-lg md:text-xl text-brand-white/80 mb-10 mx-auto leading-relaxed !w-[768px] !h-[98px] !max-w-screen-md">
+          className="text-lg md:text-xl text-brand-white/80 mb-10 mx-auto leading-relaxed max-w-xs sm:max-w-lg md:max-w-3xl px-4">
 
           We create replicable legal-tech-financial structures for nature-based projects worldwide, empowering communities as guardians of the ecosystems that sustain them.
         </motion.p>
